@@ -371,11 +371,62 @@ section {
     padding: 0 50px;
 }
 
+.projects__content {
+    color: #d8d5d5;
+    opacity: 0.3;
+    text-align: flex;
+    font-size: 6rem;
+}
+
+.list__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 100vh;
+    color: #fff3ef;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 90px;
+    border: 10px solid #d2e2e4;
+    
+}
+
+.list__content {
+    font-size: 4rem;
+    text-align:flex;
+    list-style-type: none;
+}
+.list__links {
+    color: #030202;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.list__links:hover {
+    color: #d2e2e4;
+    transition: all 0.3s ease;
+}
+
 
 .contacts {
-    height: 50vh;
+    height: 10vh;
     color: #fff3ef;
 }
+.contact__info a {
+    color: #030202; /* Change this to your desired color */
+    font-size: 2rem;
+  }
+  
+  .contact__info a:hover {
+    color: #6d4c42; /* Change this to your desired hover color */
+  }
 
 
 
