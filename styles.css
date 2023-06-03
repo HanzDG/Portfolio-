@@ -105,12 +105,12 @@ section {
 }
 
 .button:hover {
-    background: #4a4344;
+    background: #6d4c42;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #13100e;
+    color: #6d4c42;
     transition: all 0.3s ease;
 }
 
@@ -281,7 +281,7 @@ section {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #4a4344;
+    background-color: #6d4c42;
     border-radius: 2px;
 }
 
@@ -313,14 +313,17 @@ section {
     overflow-y: scroll;
     height: 100vh;
 }
-/* Page Section */
+/* about Page Section */
+.about {
+    height: 50vh;
+}
 .about__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 100vh;
     color: #fff3ef;
     z-index: 1;
     width: 100%;
@@ -349,13 +352,18 @@ section {
     font-size: 1rem;
 }
 
-.about__content p2 {
+.projects {
+    height: 100vh;
+    color: #fff3ef;
+}
+
+.projects__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 100vh;
     color: #fff3ef;
     z-index: 1;
     width: 100%;
@@ -363,10 +371,6 @@ section {
     padding: 0 50px;
 }
 
-.projects {
-    height: 100vh;
-    color: #fff3ef;
-}
 
 .contacts {
     height: 50vh;
